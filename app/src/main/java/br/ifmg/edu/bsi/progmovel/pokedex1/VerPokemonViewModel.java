@@ -64,7 +64,6 @@ public class VerPokemonViewModel extends ViewModel {
                         evoNome.add(evolucao2.species.name);
                     }
                 }
-                Log.d("POKEMON EVO 2", String.valueOf(e.chain.evolves_to[0].evolves_to[0].species.name));
                 nome.postValue(p.name);
                 height.postValue(p.height);
                 weight.postValue(p.weight);
